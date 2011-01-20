@@ -1,8 +1,6 @@
 from fabric.api import env, run, cd
 
-env.hosts = ["ip"]
-env.user = "user"
-env.password = "password"
+env.hosts = ["bowser"]
 
 def deploy():
     try: #archive old one if it's already there

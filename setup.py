@@ -7,7 +7,7 @@ setup(
     description="Django app using Fabric and buildout",
     author="Matthew J. Morrison",
 
-    package_dir={'': 'src'},
+    package_dir={'': 'fabfiles'},
     install_requires = (
         'django',
         'django-debug-toolbar',
