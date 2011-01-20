@@ -1,1 +1,9 @@
 Just some examples using Django, Fabric and buildout
+
+To run this run the following commands:
+
+python bootstrap.py
+bin/buildout
+bin/fab deploy
+
+and that's it!  Just update the fabfile.py to point to the correct host(s) and make it do something useful.
